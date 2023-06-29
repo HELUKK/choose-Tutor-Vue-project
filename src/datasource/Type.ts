@@ -7,7 +7,7 @@ export interface User {
   maxsize?: number
 }
 
-export interface ResultV0<T> {
+export interface ResultVO<T> {
   code: number
   message?: string
   data: T

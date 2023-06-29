@@ -5,4 +5,8 @@ import App from './App.vue'
 import router from './router'
 //import.meta.env.DEV && (await import('@/mock/index'))
 
-createApp(App).use(router).use(createPinia()).use(ElementPlus, { size: 'small', zIndex: 3000 }).mount('#app')
+createApp(App)
+  .use(router)
+  .use(createPinia())
+  .use(ElementPlus, { size: 'small', zIndex: 3000 })
+  .mount('#app')
